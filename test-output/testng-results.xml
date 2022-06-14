@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-16T09:34:19Z" name="Default suite" finished-at="2022-05-16T09:34:19Z" duration-ms="26">
+    <groups>
+    </groups>
+    <test started-at="2022-05-16T09:34:19Z" name="Default test" finished-at="2022-05-16T09:34:19Z" duration-ms="26">
+      <class name="testngsession.DependsonMethodConcept">
+        <test-method signature="homePageTest()[pri:0, instance:testngsession.DependsonMethodConcept@50caa560]" started-at="2022-05-16T09:34:19Z" name="homePageTest" finished-at="2022-05-16T09:34:19Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method signature="searchTest()[pri:-1, instance:testngsession.DependsonMethodConcept@50caa560]" started-at="2022-05-16T09:34:19Z" name="searchTest" finished-at="2022-05-16T09:34:19Z" depends-on-methods="testngsession.DependsonMethodConcept.homePageTest" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method signature="addToCartTest()[pri:0, instance:testngsession.DependsonMethodConcept@50caa560]" started-at="2022-05-16T09:34:19Z" name="addToCartTest" finished-at="2022-05-16T09:34:19Z" depends-on-methods="testngsession.DependsonMethodConcept.homePageTest" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartTest -->
+      </class> <!-- testngsession.DependsonMethodConcept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
